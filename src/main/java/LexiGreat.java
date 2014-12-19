@@ -19,7 +19,6 @@ public class LexiGreat{
 
         try {
             noOfTestCases = Integer.parseInt(br.readLine());
-
             for(int i = 0; i < noOfTestCases ; i++){
 
                 String input = br.readLine();
@@ -27,8 +26,6 @@ public class LexiGreat{
                 System.out.println(lexicalGreat(input));
 
             }
-
-
 
         } catch (IOException ioe) {
             System.out.println("IO error trying to read your name!");
@@ -44,7 +41,7 @@ public class LexiGreat{
         // find an i and j where j > i
         // a[i] is the smallest value for all i < j where a[i] > a[j]
 
-        //         
+        //
 
         return result;
 
